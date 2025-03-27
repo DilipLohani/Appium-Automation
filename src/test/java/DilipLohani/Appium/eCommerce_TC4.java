@@ -57,7 +57,7 @@ public class eCommerce_TC4 extends BaseTest
 	    	Assert.assertEquals(alertTitle, "Terms Of Conditions");
 	    	
 	    	driver.findElement(By.id("android:id/button1")).click();
-	    	driver.findElement(By.id("android.widget.CheckBox")).click();
+	    	driver.findElement(AppiumBy.className("android.widget.CheckBox")).click();
 	    	driver.findElement(By.id("com.androidsample.generalstore:id/btnProceed")).click();
 	
 	}
